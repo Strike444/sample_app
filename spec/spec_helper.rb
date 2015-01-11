@@ -15,7 +15,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-#require 'capybara/rails'
+# Добавил эту строчку и проблема режилась. Спек завелся.
 require 'capybara'
 
 RSpec.configure do |config|
