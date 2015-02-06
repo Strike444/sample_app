@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.2.0'
 
+gem 'test-unit'
+
 gem 'bootstrap-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -40,8 +42,8 @@ end
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   # gem 'sqlite3'
-  gem 'rspec-rails'
-
+  gem 'rspec-rails', '~> 3.0'
+  
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   #gem 'byebug'
 
